@@ -330,7 +330,19 @@ body {
 .heading-span { 
     font-weight: bolder; 
 } 
+/* Gif section styles */
+.gif-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #2794B3; /* Adjust background color as needed */
+}
 
+.gif-section img {
+    width: 300px;
+    height: auto;
+}
 .text-center { 
     text-align: center; 
 } 
