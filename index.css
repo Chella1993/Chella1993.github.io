@@ -90,7 +90,7 @@ body {
     background-image: linear-gradient(45deg, #363D73, #2794B3); 
     justify-content: center; 
     width: 100%; 
-    padding: 10rem;
+    padding: 5rem;
 } 
 
 .about .about-text { 
@@ -330,19 +330,7 @@ body {
 .heading-span { 
     font-weight: bolder; 
 } 
-/* Gif section styles */
-.gif-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    background-color: #2794B3; /* Adjust background color as needed */
-}
 
-.gif-section img {
-    width: 300px;
-    height: auto;
-}
 .text-center { 
     text-align: center; 
 } 
@@ -360,3 +348,16 @@ body {
     color: #363D73; 
 }
 
+/* Gif section styles */
+.gif-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #2794B3; /* Adjust background color as needed */
+}
+
+.gif-section img {
+    width: 300px;
+    height: auto;
+}
