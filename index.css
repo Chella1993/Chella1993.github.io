@@ -344,16 +344,22 @@ body {
 .blue-text { 
     color: #363D73; 
 }
-.center-gif {
+/* Add a class to the thinking gif container */
+.thinking-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh; /* Adjust as needed */
-    margin: 0 auto;
-    text-align: center;
+    justify-content: center;
+    height: 100vh; /* Ensure it's vertically centered */
+    text-align: center; /* Center text */
 }
 
-.center-gif img {
-    max-width: 100%;
-    height: auto;
+.thinking-text {
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Space between text and GIF */
+}
+
+.thinking-gif {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
