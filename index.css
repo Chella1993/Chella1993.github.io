@@ -1,3 +1,4 @@
+/*index.css*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
 body { 
@@ -6,11 +7,6 @@ body {
     box-sizing: border-box; 
     font-family: 'Poppins', sans-serif;
     height: 2em; 
-}
-
-/* Add margin to the header */
-.header {
-    margin: 0 20px; /* Adjust the value as needed */
 } 
 
 /* Header Navbar Styles */
@@ -320,4 +316,48 @@ body {
 .ghost-btn { 
     background-color: #fff; 
     color: #35A99C; 
-    border: 2px solid #
+    border: 2px solid #35A99C; 
+    outline: none; 
+} 
+
+.ghost-btn:hover { 
+    background-color: #35A99C; 
+    color: #fff; 
+    transition: all 0.25s; 
+    border: 2px solid #35A99C; 
+} 
+
+.heading-span { 
+    font-weight: bolder; 
+} 
+
+.text-center { 
+    text-align: center; 
+} 
+
+.small-para { 
+    font-size: 14px; 
+    color: #fff; 
+} 
+
+.white-text { 
+    color: #fff; 
+} 
+
+.blue-text { 
+    color: #363D73; 
+}
+
+/* Gif section styles */
+.gif-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #2794B3; /* Adjust background color as needed */
+}
+
+.gif-section img {
+    width: 300px;
+    height: auto;
+}
